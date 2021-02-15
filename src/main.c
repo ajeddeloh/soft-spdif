@@ -6,10 +6,9 @@
 int main() {
 	clock_init();
 	gpio_init();
+	timer_init();
 
 	while(1) {
-		GPIOA->ODR = 1;
-		GPIOA->ODR = 0;
 	}
 	return 0;
 }
