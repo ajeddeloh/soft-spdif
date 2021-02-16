@@ -1,5 +1,6 @@
 #include "clock.h"
 #include "gpio.h"
+#include "timer.h"
 
 #include "stm32l476xx.h"
 
