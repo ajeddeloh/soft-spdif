@@ -4,4 +4,4 @@
 
 void timer_init();
 
-void timer_pulse_spi_nss(uint32_t n_spi_clks);
+void timer_disable_spi_clk(uint32_t n_spi_clks);
