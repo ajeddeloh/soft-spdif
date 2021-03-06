@@ -24,7 +24,7 @@ CFLAGS += -T $(LINKER_SCRIPT) --specs=nosys.specs
 LFLAGS = -lm
 
 # CFLAGS for just our sources
-EXTRA_CFLAGS = -pedantic -fanalyzer -Wanalyzer-too-complex
+EXTRA_CFLAGS = -pedantic -fanalyzer
 
 # Startup Files
 STARTUP_S = src/startup_stm32l476xx.s
