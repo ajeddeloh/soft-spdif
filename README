@@ -1,1 +1,12 @@
 Soft S/PDIF decoder
+
+This is a software S/PDIF decoder for the STM32L476G-Discovery board.
+
+Wiring:
+
+ - Connect the input signal to PA0 and PE13
+ - Connect PA1 to PA5
+ - Connect PA3 to PE15
+
+This was originally going to output the audio over the DAC but due to the
+available GPIO pins I abandoned that plan. The S/PDIF decoding works though.

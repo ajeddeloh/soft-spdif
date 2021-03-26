@@ -16,13 +16,13 @@
 // TIM8 is a dummy timer that just relays its TRGI to the mclk timer
 #define sync_timer TIM8
 
-// TIM4 is the i2s master clock, at 2x the freq of the spi clock (~11.2MHz)
+// TIM5 is the i2s master clock, at 2x the freq of the spi clock (~11.2MHz)
 #define mclk_timer TIM5
 
 // TIM5 is the spi clock, using TIM4 as its SPI clock
 #define spi_timer TIM2
 
-// TIM1 is the bit synchronization timer, default on unless we need to shift the bits
+// TIM4 is the bit synchronization timer, default on unless we need to shift the bits
 #define shift_timer TIM4
 
 void timer_init() {
